@@ -1,8 +1,7 @@
 from typing import List
-from os import getcwd, path
 
 
-with open(path.join(getcwd(), '1', 'input.txt'), "r") as file:
+with open('1/input.txt', "r") as file:
     lines = file.readlines()
 
 left: List[int] = []
