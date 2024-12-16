@@ -20,8 +20,8 @@ for i in range(len(lines)):
 
 T = 0
 while True:
-    distint_positions = set(positions)
-    if len(distint_positions) == len(positions):
+    distinct_positions = set(positions)
+    if len(distinct_positions) == len(positions):
         grid = [[' ' for _ in range(x_max)] for _ in range(y_max)]
         for x, y in positions:
             grid[y][x] = '.'
